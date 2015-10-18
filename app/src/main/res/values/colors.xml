@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="biketaxi_gray" type="color">#DDDDDD</item>
+    <item name="biketaxi_text_color" type="color">#333333</item>
+
+</resources>

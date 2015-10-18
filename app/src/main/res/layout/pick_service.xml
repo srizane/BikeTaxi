@@ -2,7 +2,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     android:orientation="vertical"
-    android:background="@color/gojek_gray"
+    android:background="@color/biketaxi_gray"
     android:padding="10.0dip"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -13,7 +13,6 @@
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:id="@+id/mLLInstantCourier"
-        android:background="@drawable/card_selector"
         android:padding="15.0dip"
         android:layout_width="fill_parent"
         android:layout_height="0.0dip"
@@ -23,7 +22,7 @@
             android:layout_width="80.0dip"
             android:layout_height="80.0dip"
             android:layout_marginRight="15.0dip"
-            android:src="@drawable/ic_courier" />
+            android:src="@drawable/icon_courier_service" />
 
         <LinearLayout
             android:orientation="vertical"
@@ -33,19 +32,19 @@
             android:layout_weight="1.0">
 
             <TextView
-                android:textSize="@dimen/bebas_pick_service"
-                android:textColor="@color/gojek_text_color"
+                android:textSize="@dimen/pick_service"
+                android:textColor="@color/biketaxi_text_color"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/instant_courier_u"
-                app:fontFamily="bebas"
-                app:fontStyle="bold" />
+                android:text="@string/instant_courier"
+                android:fontFamily="sans-serif"
+                android:fontStyle="bold" />
 
             <TextView android:textSize="@dimen/default_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/instant_courier_desc"
-                app:fontFamily="lato" />
+                android:fontFamily="sans-serif" />
         </LinearLayout>
 
         <ImageView
@@ -57,8 +56,7 @@
     <LinearLayout
         android:gravity="center_vertical"
         android:orientation="horizontal"
-        android:id="@id/mLLTransport"
-        android:background="@drawable/card_selector"
+        android:id="@+id/mLLTransport"
         android:padding="15.0dip"
         android:layout_width="fill_parent"
         android:layout_height="0.0dip"
@@ -69,7 +67,7 @@
             android:layout_width="80.0dip"
             android:layout_height="80.0dip"
             android:layout_marginRight="15.0dip"
-            android:src="@drawable/ic_transport" />
+            android:src="@drawable/icon_transport_service" />
 
         <LinearLayout
             android:orientation="vertical"
@@ -79,20 +77,20 @@
             android:layout_weight="1.0">
 
             <TextView
-                android:textSize="@dimen/bebas_pick_service"
-                android:textColor="@color/gojek_text_color"
+                android:textSize="@dimen/pick_service"
+                android:textColor="@color/biketaxi_text_color"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/transport_u"
-                app:fontFamily="bebas"
-                app:fontStyle="bold" />
+                android:text="@string/transport"
+                android:fontFamily="sans-serif"
+                android:fontStyle="bold" />
 
             <TextView
                 android:textSize="@dimen/default_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/transport_desc"
-                app:fontFamily="lato" />
+                android:fontFamily="sans-serif" />
         </LinearLayout>
 
         <ImageView
