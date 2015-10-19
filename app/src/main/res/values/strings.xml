@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">BikeTaxi</string>
-    <string name="app_name">BikeTaxi</string>
     <string name="instant_courier">INSTANT COURIER</string>
     <string name="instant_courier_desc">Courier Delivery</string>
     <string name="transport">TRANSPORT</string>
